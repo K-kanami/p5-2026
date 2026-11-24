@@ -25,6 +25,7 @@ function draw(){
   rect(0, groundY, width, height - groundY);
 
   // BLANK[1] キャラクターの左右移動
+ 
 
   // BLANK[2] 重力とジャンプ
 
