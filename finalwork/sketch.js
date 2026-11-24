@@ -17,7 +17,14 @@ function draw(){
   for(let i = 0; i < 8; i++){
     rect(i * 80, 100, 80, 200);
   }
+
+  fill(0)
+  for(let i = 0; i < 6; i++){
+    if(i !=2)
+    rect(i * 80+60, 100, 40, 120);
+  }
 }
+
 
 function mousePressed(){
   userStartAudio();
